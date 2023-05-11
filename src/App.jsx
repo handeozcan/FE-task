@@ -1,15 +1,9 @@
 import React from 'react'
-import './App.css'
+import './App.scss'
+import Home from './view'
 
 function App() {
-
-  return (
-    
-      <div>
-        handd
-      </div>
-
-  )
+  return <Home />
 }
 
 export default App
