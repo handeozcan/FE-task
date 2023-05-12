@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+.leftContainer{
+    max-width: 500px;
+    width: 100%;
+    padding-left: 120px;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.rightContainer{
+    display: flex;
+}
+.title{
+    text-align: center;
+    margin-right: 120px;
+}
+.bottomContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    width: 100%;
+    align-items: center;
+    padding: 20px 120px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+
+}
