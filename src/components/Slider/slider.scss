@@ -1,0 +1,43 @@
+.sliderMainContainer{
+    width: 100%;
+    height: 420px;
+    z-index: -9999;
+    
+}
+.sliderContainer{
+    position: relative;
+    height: 100%;
+}
+.imageContainer{
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 58px;
+    background-color: black;
+    opacity: 0.4;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.sliderImage{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -9999;
+}
+
+.selectedImage{
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 1,
+}

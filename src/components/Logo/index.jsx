@@ -1,8 +1,6 @@
 import React from 'react'
 
-
-
-const Logo = ({fill}) => {
+const Logo = ({ fill }) => {
   return (
     <div>
       <svg
