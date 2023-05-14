@@ -77,7 +77,7 @@ function Header() {
       onClick={toggleDrawer(anchor, false)}
       onKeyDown={toggleDrawer(anchor, false)}
     >
-      <List>
+      <List className='hb_menu'>
         {['Category 1', 'Category 2', ' Category 3', 'Category 4'].map((text) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>

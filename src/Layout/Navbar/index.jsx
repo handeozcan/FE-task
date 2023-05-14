@@ -125,7 +125,7 @@ function Navbar() {
               '::selection': {
                 backgroundColor: '#F4F5F6',
               }
-            }} onClick={handleClose}>Profile</MenuItem>
+            }} onClick={handleClose}>Menu Item</MenuItem>
             <MenuItem  sx={{
               backgroundColor: '#F4F5F6',
               color:"#000",
@@ -135,7 +135,7 @@ function Navbar() {
               '::selection': {
                 backgroundColor: '#F4F5F6',
               }
-            }} onClick={handleClose}>My account</MenuItem>
+            }} onClick={handleClose}>Menu Item</MenuItem>
             <MenuItem  sx={{
               backgroundColor: '#F4F5F6',
               color:"#000",
@@ -145,7 +145,7 @@ function Navbar() {
               '::selection': {
                 backgroundColor: '#F4F5F6',
               }
-            }} onClick={handleClose}>Logout</MenuItem>
+            }} onClick={handleClose}>Menu Item</MenuItem>
           </Menu>
         </div>
       )}
